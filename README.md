@@ -1,7 +1,7 @@
 # Functionality
-Contract successfully uses require()
-Contract successfully uses assert()
-Contract successfully uses revert() statements
+*Contract successfully uses require()
+*Contract successfully uses assert()
+*Contract successfully uses revert() statements
 
 # SPDX License Identifier
 * // SPDX-License-Identifier: MIT
