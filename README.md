@@ -1,10 +1,18 @@
+SPDX License Identifier
+solidity
+Copy code
 // SPDX-License-Identifier: MIT
 This line specifies the software license for the code, which in this case is the MIT License.
 
+Solidity Version
+solidity
+Copy code
 pragma solidity ^0.8.13;
 This line sets the Solidity compiler version to 0.8.13 or higher.
 
 Contract Definition
+solidity
+Copy code
 contract VotingSystem {
     address public owner;
     mapping(address => uint) public age;
@@ -14,7 +22,6 @@ This section defines a contract named VotingSystem with three state variables:
 owner: An address type variable to store the owner's address (the deployer of the contract).
 age: A mapping that associates an address with an unsigned integer (uint), representing the age of the voter.
 hasVoted: A mapping that associates an address with a boolean, indicating whether the voter has voted or not.
-
 Constructor
 solidity
 Copy code
