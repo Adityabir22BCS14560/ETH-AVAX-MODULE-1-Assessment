@@ -12,6 +12,7 @@ This line specifies the software license for the code, which in this case is the
 
 # Solidity Version
 * pragma solidity ^0.8.13;
+* 
 This line sets the Solidity compiler version to 0.8.13 or higher.
 
 # contract VotingSystem 
