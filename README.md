@@ -1,10 +1,13 @@
 # Functionality
 *Contract successfully uses require()
+
 *Contract successfully uses assert()
+
 *Contract successfully uses revert() 
 
 # SPDX License Identifier
 * // SPDX-License-Identifier: MIT
+  
 This line specifies the software license for the code, which in this case is the MIT License.
 
 # Solidity Version
