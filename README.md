@@ -1,8 +1,17 @@
+SPDX License Identifier
+solidity
+Copy code
+// SPDX-License-Identifier: MIT
+This line specifies the software license for the code, which in this case is the MIT License.
+
 # contract VotingSystem 
 It defines a contract named VotingSystem with three state variables:
 * owner: An address type variable to store the owner's address (the deployer of the contract).
 * age: A mapping that associates an address with an unsigned integer (uint), representing the age of the voter.
 * hasVoted: A mapping that associates an address with a boolean, indicating whether the voter has voted or not.asdasd
+
+# constructor() 
+The constructor function is executed only once when the contract is deployed. It sets the owner to the address that deployed the contract (msg.sender).
 
 # function setAge(uint _age)
 It allows any user to set their age. The age is stored in the age mapping with the user's address as the key.
