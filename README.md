@@ -1,8 +1,10 @@
-SPDX License Identifier
-solidity
-Copy code
-// SPDX-License-Identifier: MIT
+# SPDX License Identifier
+* // SPDX-License-Identifier: MIT
 This line specifies the software license for the code, which in this case is the MIT License.
+
+# Solidity Version
+* pragma solidity ^0.8.13;
+This line sets the Solidity compiler version to 0.8.13 or higher.
 
 # contract VotingSystem 
 It defines a contract named VotingSystem with three state variables:
